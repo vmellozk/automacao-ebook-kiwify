@@ -1,0 +1,49 @@
+Documentação do Projeto de Automação de Publicação de Produto com eBook
+Introdução
+Este projeto consiste em um script Python desenvolvido para automatizar o processo de publicação de produtos em uma plataforma de e-commerce (KiWiFi) e a integração de um eBook gerado automaticamente utilizando o ChatGPT e o Canva. Utiliza técnicas de automação de interface gráfica através da biblioteca PyAutoGUI e manipulação de dados de uma planilha Excel com OpenPyXL.
+
+Funcionalidades
+Automatização de Publicação de Produto no KiWiFi
+
+Abrir KiWiFi: Automatiza o processo de login e navegação até a seção de produtos.
+Criar Produto: Preenche automaticamente os campos de nome, descrição, link de vendas e preço, clicando nos botões correspondentes para cada etapa.
+Adicionar Imagem e Detalhes: Seleciona uma imagem predefinida e preenche campos como e-mail do produtor e nome de exibição.
+Geração de eBook usando ChatGPT
+
+Gerar eBook: Utiliza prompts predefinidos para gerar conteúdo de eBook através do ChatGPT, simulando entrada de texto e captura do resultado.
+Integração do eBook no Produto no KiWiFi
+
+Baixar eBook do Canva: Simula o download de um eBook previamente criado no Canva.
+Adicionar eBook ao Produto: Realiza o upload do arquivo do eBook baixado para a plataforma KiWiFi, integrando-o ao produto criado.
+Requisitos do Sistema
+Bibliotecas Necessárias
+openpyxl: Para manipulação de planilhas Excel.
+pyautogui: Para automação da interface gráfica.
+PySimpleGUI: Para criação da interface gráfica do usuário.
+time: Para pausas entre interações e garantir a sincronização correta das ações.
+Configuração do Ambiente
+Preparação das Imagens de Referência:
+
+Coloque todas as imagens de referência na pasta imagens. Essas imagens são utilizadas pelo PyAutoGUI para identificar e clicar nos elementos da interface.
+Arquivo Excel de Dados:
+
+Garanta que o arquivo Excel com os dados dos produtos esteja nomeado como produtos.xlsx na mesma pasta do script Python.
+Execução do Script
+Configuração Inicial:
+
+Certifique-se de ter Python instalado no sistema.
+Instale as bibliotecas necessárias usando pip:
+Copiar código
+pip install openpyxl pyautogui pysimplegui
+Execução:
+
+Execute o script Python automacao.py.
+A interface PySimpleGUI permitirá selecionar o arquivo Excel e iniciar o processo de automação.
+Acompanhamento:
+
+Observe as interações simuladas na interface gráfica durante o processo de automação.
+Limitações
+A automação depende da exata correspondência das imagens de referência na pasta imagens.
+Os tempos de espera (time.sleep()) podem precisar ser ajustados dependendo da velocidade do sistema e da conexão à internet.
+Contato
+Para dúvidas ou suporte adicional, entre em contato via email@example.com.
