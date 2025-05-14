@@ -1,74 +1,41 @@
-# Projeto de Automação Kiwifi e Geração de eBooks
+# 📚 Automação Kiwifi e Geração de eBooks
 
-## Visão Geral
+## 🌟 Visão Geral
+Este projeto foi desenvolvido como um **teste** para fechar um contrato com um cliente. Ele **automação** a criação e integração de produtos no **Kiwifi**, além de gerar **eBooks personalizados** a partir das informações fornecidas pelos usuários.
 
-Este projeto foi desenvolvido como um pedido de um cliente para automatizar o processo de criação e integração de produtos no Kiwifi, além de gerar eBooks personalizados a partir de informações preenchidas por usuários. O projeto ainda está em desenvolvimento e visa oferecer uma solução completa para a promoção de produtos digitais.
+## ⚙️ Funcionalidades
 
-## Funcionalidades Implementadas
+- **🔧 Automação no Kiwifi**: Cadastro de produtos (nome, descrição, preço) e personalização com imagens.
+- **🎨 Integração com Canva**: Criação e personalização de capas de eBooks.
 
-- **Automação Kiwifi:**
-  - Abertura do dashboard do Kiwifi via navegador.
-  - Cadastro automático de produtos com nome, descrição, link de vendas e preço.
-  - Personalização de produtos com imagens e informações adicionais.
+## 🚀 Como Usar
 
-- **Integração com Canva:**
-  - Acesso ao Canva para criação de capas de eBooks.
-  - Download e personalização de eBooks com base nos produtos cadastrados.
+### 📋 Pré-requisitos
+- Python 3.x
+- Dependências listadas no `requirements.txt`
 
-## Funcionalidades Planejadas
+### 🛠️ Execução
+1. Clone o repositório.
+2. Instale as dependências.
+3. Execute `main.py` para iniciar o processo de automação.
 
-- **Automação de Cadastro de Usuários:**
-  - Criação de contas no Kiwifi para usuários que preencham um formulário específico.
-  - Geração de links de cadastro e instruções para configuração de pagamento.
-
-- **Geração Automatizada de eBooks:**
-  - Incorporação de informações preenchidas pelos usuários em templates de eBooks pré-definidos.
-  - Exportação e integração dos eBooks gerados diretamente no Kiwifi.
-
-## Como Usar
-
-1. **Pré-requisitos:**
-   - Python 3.x instalado.
-   - Bibliotecas necessárias instaladas (webbrowser, openpyxl, pyautogui).
-
-2. **Configuração:**
-   - Clone o repositório para sua máquina local.
-   - Instale as dependências listadas no arquivo `requirements.txt`.
-
-3. **Execução:**
-   - Execute o arquivo `main.py`.
-   - O programa abrirá automaticamente o navegador, acessará o Kiwifi e começará o processo de automação conforme configurado no script.
-
-## Notas
-
-Este projeto está em fase de desenvolvimento e pode estar sujeito a alterações e melhorias contínuas. Para sugestões ou problemas, sinta-se à vontade para abrir uma issue ou entrar em contato diretamente.
+## 📌 Notas
+Esse projeto **não será atualizado**. Como foi apenas um teste, o código foi feito de forma rápida e consistente, utilizando uma ferramenta simples, ao invés do Selenium.
 
 ---
 
-## Sobre o Projeto
+## ℹ️ Sobre o Projeto
 
-### Objetivo
+### 🎯 Objetivo
+Automatizar o processo de criação e integração de produtos digitais no **Kiwifi** e geração de **eBooks personalizados** usando o **Canva**.
 
-O projeto de automação Kiwifi e geração de eBooks foi concebido para oferecer uma solução integrada e automatizada para criadores de conteúdo digital. Ele visa simplificar o processo de criação, personalização e integração de produtos digitais no Kiwifi, além de facilitar a geração de eBooks personalizados usando o Canva.
+### 💡 Motivação
+Atender à crescente demanda por **produtos digitais** e **eBooks personalizados**, facilitando a promoção e venda de conteúdos digitais.
 
-### Motivação
+### 🛠️ Funcionalidades Principais
+- Cadastro automatizado de produtos no Kiwifi.
+- Personalização de eBooks com o Canva.
+- Geração automatizada de links de cadastro para usuários.
 
-Com a crescente demanda por produtos digitais e eBooks personalizados, surge a necessidade de uma ferramenta que automatize tarefas repetitivas e complexas. Este projeto nasceu da necessidade de um cliente de otimizar o processo de promoção e venda de conteúdos digitais, enquanto oferece uma experiência personalizada aos usuários finais.
-
-### Funcionalidades Principais
-
-- **Automação Kiwifi:**
-  - Cadastro automatizado de produtos com detalhes como nome, descrição, link de vendas e preço.
-  - Personalização de produtos com imagens e informações adicionais.
-
-- **Integração com Canva:**
-  - Criação de capas e conteúdo visual para eBooks usando o Canva.
-  - Download e personalização de eBooks com base nos produtos cadastrados.
-
-- **Automação de Processos:**
-  - Geração automática de links de cadastro no Kiwifi para usuários que preencham um formulário específico.
-  - Incorporação de informações dos usuários em templates de eBooks para criação automática.
-
-### Futuro
-
-Este projeto está em constante evolução. Planejamos expandir suas funcionalidades para incluir suporte a mais plataformas de automação, melhorias na interface do usuário e integração com novas ferramentas de criação de conteúdo digital. Estamos comprometidos em fornecer uma solução robusta e escalável que atenda às necessidades crescentes de nossos clientes.
+### 📝 Teste para Fechamento de Contrato
+Este projeto foi desenvolvido como um teste para **fechar um contrato** com um cliente. O objetivo é oferecer uma solução automatizada para a criação e promoção de produtos digitais no Kiwifi.
